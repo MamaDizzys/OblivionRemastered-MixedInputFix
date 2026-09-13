@@ -1,0 +1,108 @@
+{
+  "candidate_sha256": "7551c3af9193e2556af7671fbac9b6f0458753f8271430db1fac7e182a21830c",
+  "game_sha256": "b7be7e6ebe9424f6fdf274f5e7a59372de103e043ab5b66c60e021c0c89df457",
+  "helper_rva": 31296,
+  "tls_provenance_offset": 8,
+  "tls_dispatch_offset": 3120,
+  "game_sites": {
+    "mapping_input": {
+      "rva": 59983600,
+      "bytes": "0fb677500f57f648"
+    },
+    "merge_before": {
+      "rva": 59983960,
+      "bytes": "4585c07419443bc2"
+    },
+    "merge_after": {
+      "rva": 59984023,
+      "bytes": "48ffc1493bc97cb9"
+    },
+    "action_before": {
+      "rva": 59950228,
+      "bytes": "0f1077404c8d4730"
+    },
+    "action_after": {
+      "rva": 59950308,
+      "bytes": "0f104f40f20f1047"
+    },
+    "dispatch_end": {
+      "rva": 59952411,
+      "bytes": "498dbda805000049"
+    },
+    "x_entry": {
+      "rva": 76141072,
+      "bytes": "405553564155488d"
+    },
+    "x_branch": {
+      "rva": 76141310,
+      "bytes": "3c010f8502060000"
+    },
+    "x_gamepad_output": {
+      "rva": 76142793,
+      "bytes": "ff92180d0000488b"
+    },
+    "x_gamepad_after": {
+      "rva": 76142799,
+      "bytes": "488b4c2438440f28"
+    },
+    "x_mouse_output": {
+      "rva": 76143365,
+      "bytes": "ff90180d0000440f"
+    },
+    "x_mouse_after": {
+      "rva": 76143371,
+      "bytes": "440f289424b00000"
+    },
+    "x_clear": {
+      "rva": 76143488,
+      "bytes": "c781640d00000000"
+    },
+    "y_entry": {
+      "rva": 76062720,
+      "bytes": "405553564155488d"
+    },
+    "y_branch": {
+      "rva": 76062958,
+      "bytes": "3c010f8502060000"
+    },
+    "y_gamepad_output": {
+      "rva": 76064441,
+      "bytes": "ff92100d0000488b"
+    },
+    "y_gamepad_after": {
+      "rva": 76064447,
+      "bytes": "488b4c2438440f28"
+    },
+    "y_mouse_output": {
+      "rva": 76065013,
+      "bytes": "ff90100d0000440f"
+    },
+    "y_mouse_after": {
+      "rva": 76065019,
+      "bytes": "440f289424b00000"
+    },
+    "y_clear": {
+      "rva": 76065136,
+      "bytes": "c781680d00000000"
+    },
+    "x_getter_before": {
+      "rva": 76141302,
+      "bytes": "488bc8"
+    },
+    "y_getter_before": {
+      "rva": 76062950,
+      "bytes": "488bc8"
+    },
+    "x_return": {
+      "rva": 76143478,
+      "bytes": "c3cccccccccccccc"
+    },
+    "y_return": {
+      "rva": 76065126,
+      "bytes": "c3cccccccccccccc"
+    }
+  },
+  "helper_bytes": "8b054a831100654c8b0c25580000004d8b0cc1498d810800000041c681280c00000049c781200c00000000000049898908000000498991100000004180b9290c00000075364c8b48104983f9ff742c49ffc14c8948104885c90f95c14881fa00000100410f93c14120c9f6c20f0f94c14420c98888200c0000eb07c680210c0000014881ea080100000f93c14c39c20f94c284d17507c680200c000000c3",
+  "input_type_rva": 38656,
+  "input_type_bytes": "41565657534883ec38488b05705e11004831e048894424300fb605f1651100a801745089d348c7442428000000008b055c66110065488b142558000000488b34c2488bbe300c00004885ff7426488b4720488d5424284989ce4889c1e87ff7ffff4c89f184c0740b488b442428483b47187430b830cce60248030581651100ffd0488b4c24304831e1488b15f05d11004839ca0f85ee0000004883c4385b5f5e415ec3488d86300c0000488b004885c074c18b15d8651100654c8b042558000000498b14d080ba280c00000175a54c8b40104d85c0749c488d92080000004c3b4210758f4c8b024c390075874c8b42084c3940080f8579ffffff4c8b40184d85c00f846cffffff4c8b48204d85c90f845fffffff3858290f8556ffffff4c8b92180c00004d85d20f8446ffffff4883c228eb0d4883c21849ffca0f8433ffffff4c3942f075ed4c394af875e7440fb7024489c241c1e8080fb6402830d04430c308c30f850bffffff80fa0174130fb6c283f8020f85fafeffffb001e901ffffff31c0e9fafeffff488b4c24304831e1e87c090300cc"
+}

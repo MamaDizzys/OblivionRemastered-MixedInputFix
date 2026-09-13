@@ -1,0 +1,130 @@
+{
+  "game_sha256": "b7be7e6ebe9424f6fdf274f5e7a59372de103e043ab5b66c60e021c0c89df457",
+  "candidate_sha256": "0a945b1ce600abe54de83bc1ba9f37df55149cbe051d97d109157f07bd95a053",
+  "sites": {
+    "reset": {
+      "rva": 59946654,
+      "bytes": "440f28f248894d90"
+    },
+    "mapping_input": {
+      "rva": 59983600,
+      "bytes": "0fb677500f57f648"
+    },
+    "merge_before": {
+      "rva": 59983960,
+      "bytes": "4585c07419443bc2"
+    },
+    "merge_after": {
+      "rva": 59984023,
+      "bytes": "48ffc1493bc97cb9"
+    },
+    "action_before": {
+      "rva": 59950228,
+      "bytes": "0f1077404c8d4730"
+    },
+    "action_after": {
+      "rva": 59950308,
+      "bytes": "0f104f40f20f1047"
+    },
+    "dispatch_end": {
+      "rva": 59952411,
+      "bytes": "498dbda805000049"
+    },
+    "dispatch_begin": {
+      "rva": 59952405,
+      "bytes": "ff15"
+    },
+    "backward_entry": {
+      "rva": 76065664,
+      "bytes": "48895c2410574883"
+    },
+    "backward_branch": {
+      "rva": 76065857,
+      "bytes": "3c0190900f57c0f3"
+    },
+    "backward_post": {
+      "rva": 76065876,
+      "bytes": "0f28742420488b5c"
+    },
+    "backward_clear": {
+      "rva": 76065904,
+      "bytes": "c781500d00000000"
+    },
+    "forward_entry": {
+      "rva": 76065920,
+      "bytes": "48895c2410574883"
+    },
+    "forward_branch": {
+      "rva": 76066103,
+      "bytes": "3c0190900f57c0f3"
+    },
+    "forward_post": {
+      "rva": 76066122,
+      "bytes": "0f28742420488b5c"
+    },
+    "forward_clear": {
+      "rva": 76066144,
+      "bytes": "c7814c0d00000000"
+    },
+    "left_entry": {
+      "rva": 76066160,
+      "bytes": "48895c2410574883"
+    },
+    "left_branch": {
+      "rva": 76066353,
+      "bytes": "3c0190900f57c0f3"
+    },
+    "left_post": {
+      "rva": 76066372,
+      "bytes": "0f28742420488b5c"
+    },
+    "left_clear": {
+      "rva": 76066400,
+      "bytes": "c781540d00000000"
+    },
+    "right_entry": {
+      "rva": 76066416,
+      "bytes": "48895c2410574883"
+    },
+    "right_branch": {
+      "rva": 76066599,
+      "bytes": "3c0190900f57c0f3"
+    },
+    "right_post": {
+      "rva": 76066618,
+      "bytes": "0f28742420488b5c"
+    },
+    "right_clear": {
+      "rva": 76066640,
+      "bytes": "c781580d00000000"
+    },
+    "consume_before": {
+      "rva": 76150325,
+      "bytes": "f30f1087500d0000"
+    },
+    "consume_sum": {
+      "rva": 76150363,
+      "bytes": "0f28c2660f14c30f"
+    },
+    "consume_final": {
+      "rva": 76150684,
+      "bytes": "0f1187780a000048"
+    },
+    "backward_getter": {
+      "rva": 76065852,
+      "bytes": "e8"
+    },
+    "forward_getter": {
+      "rva": 76066098,
+      "bytes": "e8"
+    },
+    "left_getter": {
+      "rva": 76066348,
+      "bytes": "e8"
+    },
+    "right_getter": {
+      "rva": 76066594,
+      "bytes": "e8"
+    }
+  }
+}

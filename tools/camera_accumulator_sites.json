@@ -1,0 +1,114 @@
+{
+  "game_sha256": "b7be7e6ebe9424f6fdf274f5e7a59372de103e043ab5b66c60e021c0c89df457",
+  "image_base": 5368709120,
+  "sites": {
+    "add": {
+      "rva": 55987862,
+      "receiver_register": "rbx",
+      "bytes": "f20f588330050000f20f118330050000"
+    },
+    "consume": {
+      "rva": 56210251,
+      "receiver_register": "rcx",
+      "bytes": "0f108128050000488d542430488bf1f2"
+    },
+    "manager_before": {
+      "rva": 56210331,
+      "receiver_register": "rsi",
+      "bytes": "ff9068080000488b06488bceff909807"
+    },
+    "manager_after": {
+      "rva": 56210337,
+      "receiver_register": "rsi",
+      "bytes": "488b06488bceff90980700004883be50"
+    },
+    "set_enter": {
+      "rva": 51190928,
+      "receiver_register": "rcx",
+      "bytes": "48895c2408574881ecb0000000f20f10"
+    },
+    "set_return": {
+      "rva": 51191511,
+      "receiver_register": "rbx",
+      "bytes": "488b9c24c00000000f28b424a0000000"
+    },
+    "sign_test": {
+      "rva": 76086032,
+      "receiver_register": "rdi",
+      "bytes": "66410f2fda761066440f2f9730050000"
+    },
+    "sign_skip": {
+      "rva": 76086068,
+      "receiver_register": "rdi",
+      "bytes": "4c89b7280900004c89b7400900004c89"
+    },
+    "sign_submit": {
+      "rva": 76086133,
+      "receiver_register": "rdi",
+      "bytes": "ff9068070000440f28ac243001000049"
+    },
+    "history_copy": {
+      "rva": 76086262,
+      "receiver_register": "rdi",
+      "bytes": "0f1187a0090000f20f118fb009000074"
+    }
+  },
+  "changed_write_pcs": {
+    "0x3564ea6": "native_add",
+    "0x3589e34": "gated_clear",
+    "0x3596a96": "tick_early_clear",
+    "0x35970b7": "tick_tail_clear"
+  },
+  "static_ranges": {
+    "native_add": [
+      55987744,
+      55987884
+    ],
+    "gated_clear": [
+      56139280,
+      56139338
+    ],
+    "tick": [
+      56191456,
+      56193467
+    ],
+    "consume": [
+      56210240,
+      56210750
+    ],
+    "game_consumer": [
+      76082640,
+      76086393
+    ],
+    "get_control": [
+      51096800,
+      51096827
+    ],
+    "set_control": [
+      51190928,
+      51191536
+    ],
+    "alternate_consumer": [
+      51464256,
+      51466540
+    ],
+    "game_consumer_wrapper_entry": [
+      76086400,
+      76086453
+    ]
+  },
+  "guards": {
+    "0x3564e20": "40534883ec30488b01488bd90f297424200f28f1ff903808000084c0754d4889",
+    "0x3564e9e": "f20f1183300500004883c4305bc3",
+    "0x3589e26": "0f1005330282050f118328050000f20f100d34028205f20f118b38050000",
+    "0x3596a88": "0f1005d13581050f118628050000f20f100dd2358105f20f118e38050000",
+    "0x35970a9": "0f1005b02f81050f118628050000f20f100db12f8105f20f118e38050000",
+    "0x359b369": "0f1140b048895808f20f1150c0488b01ff9060070000",
+    "0x359b4d5": "488b06488d542430488bceff9068070000",
+    "0x30bace0": "0f108110030000488bc2f20f1089200300000f1102f20f114a10c3",
+    "0x30d1e61": "0f118310030000f20f104f10488bbba0010000f20f118b20030000",
+    "0x488eeba": "450f57d2",
+    "0x488fb10": "66410f2fda761066440f2f9730050000771266410f2fda734166440f2f973005000073364c89b7280900004c89b7400900004c89b7480900004489b738090000c7873c0900000000803f4489b7300900004488b754090000eb11488b07488d542450488bcfff9068070000",
+    "0x8daa060": "000000000000000000000000000000000000000000000000"
+  }
+}
